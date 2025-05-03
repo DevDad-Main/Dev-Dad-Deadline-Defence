@@ -6,14 +6,14 @@ using UnityEngine.Pool;
 
 namespace TopDown_Template
 {
-    public class PoolManager : MonoBehaviour
+    public class PoolingManager : MonoBehaviour
     {
         #region Variable
         [SerializeField] private Projectile _projecttileReference;
         [SerializeField] private int _maxSizePool = 1000;
         [SerializeField] private Transform _parentPool;
         private ObjectPool<Projectile> _objectPool;
-        public static PoolManager Instance;
+        public static PoolingManager Instance;
         #endregion
 
         #region Unity Callback

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TopDown;
 using UnityEngine;
 
 namespace TopDown_Template
@@ -73,8 +74,13 @@ namespace TopDown_Template
         {
             if (gameObject.activeSelf)
             {
-                DisableCallback?.Invoke(this);
-                gameObject.SetActive(false);
+                // DisableCallback?.Invoke(this);
+                // gameObject.SetActive(false);
+            
+                PoolManager.Instance.ReturnToPool(
+                    Settings.Pool_Bullet,
+                    gameObject
+                );
             }
         }
         #endregion
