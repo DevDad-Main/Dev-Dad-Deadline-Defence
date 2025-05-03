@@ -1,9 +1,7 @@
-using UnityEngine;
-
-public static  class Utils 
+public static  class Settings 
 {
-    public static int idleAnimation = Animator.StringToHash("Idle");
-    public static int movingAnimation = Animator.StringToHash("Moving");
-    public static int dieAnimation = Animator.StringToHash("Die");
+    public static string IDLE_ANIMATION  = "Idle";
+    public static string MOVING_ANIMATION = "Moving";
+    public static string DIE_ANIMATION = "Die";
 
 }

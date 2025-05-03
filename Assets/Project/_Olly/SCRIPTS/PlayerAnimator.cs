@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TopDown_Template;
 using UnityEngine;
 
@@ -11,6 +9,6 @@ public class PlayerAnimator : MonoBehaviour
 
     void Update()
     {
-        _animator.SetBool(Utils.movingAnimation, m_PlayerMovement.CurrentVelocity != Vector2.zero);
+        _animator.SetBool(Settings.MOVING_ANIMATION, m_PlayerMovement.CurrentVelocity != Vector2.zero);
     }
 }

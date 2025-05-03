@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GZ2_UI_16px_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1d301f333cc7c599ebf20da59d8f4d
+      internalID: -481701627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2_UI_16px_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 7
+        width: 12
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1277a9b3a3e45418db1f13c286fc11e3
+      internalID: 479761270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2_UI_16px_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 5
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f49ad6db84254d778e8a5edba0708e6
+      internalID: -1639069313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2_UI_16px_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 5
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb43ffc63d42ac83bbbbee23520968f5
+      internalID: 2125022078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DD-Reload
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 5
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d294ac4a46cc3a5822ab4ef4186df8
+      internalID: -502838904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DD-Crosshair
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a408302c3fa0cd46d984b3550d2c8dee
+      internalID: -1580269264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DD-Crosshair: -1580269264
+      DD-Reload: -502838904
+      GZ2_UI_16px_0: -481701627
+      GZ2_UI_16px_1: 479761270
+      GZ2_UI_16px_2: -1639069313
+      GZ2_UI_16px_3: 2125022078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

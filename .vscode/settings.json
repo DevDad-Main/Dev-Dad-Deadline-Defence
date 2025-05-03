@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "TopDown-Template-main.sln"
+    "dotnet.defaultSolution": "Deadline-Defence.sln"
 }

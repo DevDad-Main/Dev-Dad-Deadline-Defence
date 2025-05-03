@@ -108,7 +108,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 87
+        width: 4
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa4bc3b55271a1d8b37741da931a5f9
+      internalID: 296275975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 86
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3061f267941f6ccaa9f84f64d128d790
+      internalID: -1943939583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 86
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f321ce70237eb3c90b3215e7dcb29db9
+      internalID: 410127316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 83
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fa3ccfeb5c28fbd9b3f384416faea1
+      internalID: 588429452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 85
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9af3bbf06f75b258b547e3e64550fea
+      internalID: -818557025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 84
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71533fac65d14433382515aeaa07726c
+      internalID: -944601672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 84
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4febf259aafa29681b23536edbcaa6b1
+      internalID: -54392794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 68
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a396a53f40766a0eb936b4fab4d3a01e
+      internalID: 1760935274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 68
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb8931cd8a447213a2a1d6e7db31865
+      internalID: -144571192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 68
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d249aeb5ffd9a7be98af1d0874631dfd
+      internalID: -2101712884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 68
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a9590d4e07f3fe8bed130e7ffa406b
+      internalID: 1184139767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 68
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a50e3ac254f29ed6a53830b1cf40d32
+      internalID: 49160592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 68
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71559f91e1200805dac906127817f608
+      internalID: -1278026517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 67
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ddde351e5bd230d90c986224e619dd
+      internalID: -1928754622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Makeshift SMG
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 51
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde2aa0e49d064e89afb5a6e1ce3010b
+      internalID: 1465369377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 52
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d23d710ec5b9efbda90e747597d9a54
+      internalID: -1889977886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 51
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06caada4b15f1f5b9a0aabd44b74b0d
+      internalID: 278389029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 51
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd65db21fb02ee84a43595098108867
+      internalID: -1615157510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 35
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89a3b6ff2980986d84a804cc417ab2f
+      internalID: -512764923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1616e299a9a5b1578b0b2b4f33f83a5d
+      internalID: -655149404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 35
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89dc6f327b9c009bbcc851f4ff1b483
+      internalID: 1847946746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 35
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d912b16c99c1959180f992a9dfed42c
+      internalID: -1630285809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 19
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca00c33f08f60826ba147546660ae8e
+      internalID: -569412003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_23
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 20
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a79f4bd54ac694cb8dd6d1212637b99
+      internalID: 932506492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 17
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3852ee3049745c4489cffbd46ae9dbf
+      internalID: -1247314641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_25
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 19
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a656d7d76ba7a83e92f53d1691bb892
+      internalID: -1028133405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571ad8c4017c47942ad676bf954741f8
+      internalID: -1697519782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae3bea644f0114bbb8ad18561904da
+      internalID: -1620462721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 86
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3b49c98c6d0ea5cb9023f064a7056a
+      internalID: 510262810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GZ2-Weapons_16px_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727136f9594c963cdac4f8c50ff88297
+      internalID: -1108342257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +749,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GZ2-Weapons_16px_0: 296275975
+      GZ2-Weapons_16px_1: -1943939583
+      GZ2-Weapons_16px_10: 1184139767
+      GZ2-Weapons_16px_11: 49160592
+      GZ2-Weapons_16px_12: -1278026517
+      GZ2-Weapons_16px_13: -1928754622
+      GZ2-Weapons_16px_15: -1889977886
+      GZ2-Weapons_16px_16: 278389029
+      GZ2-Weapons_16px_17: -1615157510
+      GZ2-Weapons_16px_18: -512764923
+      GZ2-Weapons_16px_19: -655149404
+      GZ2-Weapons_16px_2: 410127316
+      GZ2-Weapons_16px_20: 1847946746
+      GZ2-Weapons_16px_21: -1630285809
+      GZ2-Weapons_16px_22: -569412003
+      GZ2-Weapons_16px_23: 932506492
+      GZ2-Weapons_16px_24: -1247314641
+      GZ2-Weapons_16px_25: -1028133405
+      GZ2-Weapons_16px_26: -1697519782
+      GZ2-Weapons_16px_27: -1620462721
+      GZ2-Weapons_16px_28: 510262810
+      GZ2-Weapons_16px_29: -1108342257
+      GZ2-Weapons_16px_3: 588429452
+      GZ2-Weapons_16px_4: -818557025
+      GZ2-Weapons_16px_5: -944601672
+      GZ2-Weapons_16px_6: -54392794
+      GZ2-Weapons_16px_7: 1760935274
+      GZ2-Weapons_16px_8: -144571192
+      GZ2-Weapons_16px_9: -2101712884
+      Makeshift SMG: 1465369377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

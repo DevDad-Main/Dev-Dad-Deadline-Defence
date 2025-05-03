@@ -42,6 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 3713272437
+    locked: 0
+  - name: Ground-Decoration
+    uniqueID: 1161284429
+    locked: 0
   - name: Character
     uniqueID: 3429186115
     locked: 0
