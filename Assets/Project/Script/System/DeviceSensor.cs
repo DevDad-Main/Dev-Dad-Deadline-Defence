@@ -14,6 +14,7 @@ namespace TopDown_Template {
         [SerializeField] private CharacterInputContoller _characterInputContoller;
         [SerializeField] private GameObject _mobileInput;
         [SerializeField] private bool _isGamepad;
+        [SerializeField] private bool shouldLimitFPS = false;
         [SerializeField] private int _targetFPS = 120;
 
         [SerializeField] private TMP_Text _debug;
@@ -23,7 +24,11 @@ namespace TopDown_Template {
         #region Unity Callback
         public void Start()
         {
-            Application.targetFrameRate = _targetFPS;
+            if (shouldLimitFPS)
+            {
+                Application.targetFrameRate = _targetFPS;
+            }
+
             SystemDeterm();
             InputDeviceDeterm();
             InputSystem.onDeviceChange +=

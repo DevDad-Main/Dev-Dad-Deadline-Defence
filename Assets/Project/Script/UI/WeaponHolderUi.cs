@@ -38,12 +38,12 @@ namespace TopDown_Template
                 if (_weaponHodler.WeaponList[firstIndex] != null)
                 {
                     _cardsWeapon[0].gameObject.SetActive(true);
-                    _cardsWeapon[0].SetCard(_weaponHodler.WeaponList[firstIndex].Sprite, _weaponHodler.WeaponList[firstIndex].name, _weaponHodler.WeaponList[firstIndex].GetStockAndMagAmmo().Item2 + "", _weaponHodler.WeaponList[firstIndex].GetStockAndMagAmmo().Item1 + "");
+                    _cardsWeapon[0].SetCard(_weaponHodler.WeaponList[firstIndex].SpriteOutline, _weaponHodler.WeaponList[firstIndex].name, _weaponHodler.WeaponList[firstIndex].GetStockAndMagAmmo().Item2 + "", _weaponHodler.WeaponList[firstIndex].GetStockAndMagAmmo().Item1 + "");
                 }
                 if (_weaponHodler.WeaponList.Count > 1)
                 {
                     _cardsWeapon[1].gameObject.SetActive(true);
-                    _cardsWeapon[1].SetCard(_weaponHodler.WeaponList[secondIndex].Sprite, _weaponHodler.WeaponList[secondIndex].name, _weaponHodler.WeaponList[secondIndex].GetStockAndMagAmmo().Item2 + "", _weaponHodler.WeaponList[secondIndex].GetStockAndMagAmmo().Item1 + "");
+                    _cardsWeapon[1].SetCard(_weaponHodler.WeaponList[secondIndex].SpriteOutline, _weaponHodler.WeaponList[secondIndex].name, _weaponHodler.WeaponList[secondIndex].GetStockAndMagAmmo().Item2 + "", _weaponHodler.WeaponList[secondIndex].GetStockAndMagAmmo().Item1 + "");
                 }
                 else
                 {

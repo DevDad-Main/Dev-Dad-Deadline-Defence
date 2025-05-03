@@ -278,6 +278,7 @@ namespace TopDown_Template
                     {
                         case "Base Weapon Data":
                             EditorGUILayout.PropertyField(serializedObject.FindProperty("_iconWeapon"));
+                            EditorGUILayout.PropertyField(serializedObject.FindProperty("_iconWeaponOutline"));
                             EditorGUILayout.PropertyField(serializedObject.FindProperty("_armLeft"));
                             EditorGUILayout.PropertyField(serializedObject.FindProperty("_armRight"));
                             EditorGUILayout.PropertyField(serializedObject.FindProperty("_body"));

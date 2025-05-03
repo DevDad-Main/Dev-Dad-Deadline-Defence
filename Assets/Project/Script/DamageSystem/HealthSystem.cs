@@ -74,7 +74,7 @@ namespace TopDown_Template
             set
             {
                 _armor = value;
-                if (CurrentHealthIsMax)
+                if (_armor >= _maxArmor)
                 {
                     _armor = _maxArmor;
                 }

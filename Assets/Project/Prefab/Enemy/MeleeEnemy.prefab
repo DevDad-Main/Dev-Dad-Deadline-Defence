@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -865781181
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 2
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
@@ -203,7 +203,7 @@ MonoBehaviour:
       m_Calls: []
   _health: {fileID: 2855192758192570342}
   _armPivot: {fileID: 847523835631011428}
-  _radiusAttack: 3
+  _radiusAttack: 2.3
   _attackDelay: 1
   _durationEnemyInFront: 0.25
   _angleAttack: 30
@@ -465,7 +465,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mass: 24
   _timeSaveImpulse: 0.5
-  _scretch: 0
   _stoppedInKick: 1
 --- !u!114 &549901856144335525
 MonoBehaviour:
