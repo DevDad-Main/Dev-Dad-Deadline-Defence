@@ -30,6 +30,7 @@ namespace TopDown {
                 for (int i = 0; i < obj.initialSize; i++)
                 {
                     var go = Instantiate(obj.prefab);
+                    go.transform.SetParent(transform);
                     go.SetActive(false);
                     queue.Enqueue(go);
                 }
@@ -53,7 +54,7 @@ namespace TopDown {
 
             go.transform.position = position;
             go.transform.rotation = rotation;
-            go.transform.parent = gameObject.transform;
+            go.transform.SetParent(transform);
             
             go.SetActive(true);
 
