@@ -12,6 +12,7 @@ namespace TopDown_Template
         [Header("Base Weapon Data")]
         [SerializeField] private Sprite _iconWeapon;
         [SerializeField] private Sprite _iconWeaponOutline;
+        [SerializeField] private Sprite _iconWeaponBack;
         [SerializeField] private GameObject _armLeft;
         [SerializeField] private GameObject _armRight;
         [SerializeField] private Transform _body;
@@ -29,6 +30,8 @@ namespace TopDown_Template
         public virtual bool InfinityAmmo { get; }
         public bool IsReloading { get => _isReloading; set => _isReloading = value; }
         public Sprite Sprite { get => _iconWeapon; set => _iconWeapon = value; }
+        public Sprite SpriteBack { get => _iconWeaponBack; set => _iconWeaponBack = value; }
+
         public Sprite SpriteOutline { get => _iconWeaponOutline; set => _iconWeaponOutline = value; }
         public abstract Transform BaseShootDir { get; }
         public Transform Body { get => _body; }

@@ -480,7 +480,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GZ2-Weapons_16px- OUTLINES_17
+      name: Double-Barrel-OUTLINE
       rect:
         serializedVersion: 2
         x: 34
@@ -679,6 +679,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Double-Barrel-OUTLINE: 958460314
       GZ2-Weapons_16px- OUTLINES_0: -1589349431
       GZ2-Weapons_16px- OUTLINES_1: 29766125
       GZ2-Weapons_16px- OUTLINES_10: 1253009217
@@ -687,7 +688,6 @@ TextureImporter:
       GZ2-Weapons_16px- OUTLINES_14: 2035687660
       GZ2-Weapons_16px- OUTLINES_15: -1904409091
       GZ2-Weapons_16px- OUTLINES_16: 141065834
-      GZ2-Weapons_16px- OUTLINES_17: 958460314
       GZ2-Weapons_16px- OUTLINES_18: 608424607
       GZ2-Weapons_16px- OUTLINES_19: 1355337555
       GZ2-Weapons_16px- OUTLINES_2: 1390708864

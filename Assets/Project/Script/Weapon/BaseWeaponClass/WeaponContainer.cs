@@ -65,11 +65,11 @@ namespace TopDown_Template
         {
             if (_backWeapon)
             {
-                _render.sprite = _backWeapon.Sprite;
+                _render.sprite = _backWeapon.SpriteOutline;
             }
             else
             {
-                _render.sprite = _weapon.Sprite;
+                _render.sprite = _weapon.SpriteOutline;
             }
 
         }

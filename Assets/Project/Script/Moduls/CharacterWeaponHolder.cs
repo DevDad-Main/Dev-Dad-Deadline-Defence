@@ -111,7 +111,8 @@ namespace TopDown_Template
                 {
                     temp++;
                 }
-                _secondWeapon.sprite = _weaponList[temp].Sprite;
+                // Here we are setting the back weapon sprite for the player => Modified to place the Sprite back so we can have different sprites
+                _secondWeapon.sprite = _weaponList[temp].SpriteBack;
 
             }
         }
