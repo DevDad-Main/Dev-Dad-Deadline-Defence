@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 1eda255c1e442f22196b0571bf837c9c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: GZ2-Character-GunsSet_Frame_0
+    originalName: 
+    pivot: {x: 0.56060606, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 89
+      width: 33
+      height: 20
+    spriteID: 098fdfc3710bc742f90305cde4c4c83e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 89}
+  - name: GZ2-Character-GunsSet_Frame_1
+    originalName: 
+    pivot: {x: 0.56060606, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 31
+      width: 33
+      height: 21
+    spriteID: 7d1166034c3eb51f8b7e4dca0902bbd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 31}
+  - name: GZ2-Character-GunsSet_Frame_2
+    originalName: 
+    pivot: {x: 0.51388884, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 204
+      width: 36
+      height: 18
+    spriteID: 954635d24f7e8330c8f2cd807e1379cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 204}
+  - name: GZ2-Character-GunsSet_Frame_3
+    originalName: 
+    pivot: {x: 0.48684213, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 38
+      height: 19
+    spriteID: 083f05a497ab39e88a648d76d3b55822
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: GZ2-Character-GunsSet_Frame_4
+    originalName: 
+    pivot: {x: 0.5967742, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 117
+      width: 31
+      height: 21
+    spriteID: e10648fe5ef47dcf19fbb995ceb5fc15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 117}
+  - name: GZ2-Character-GunsSet_Frame_5
+    originalName: 
+    pivot: {x: 0.6166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 195
+      width: 30
+      height: 18
+    spriteID: b55478d9969996bd2a4dc8f5444f7b47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 195}
+  - name: GZ2-Character-GunsSet_Frame_6
+    originalName: 
+    pivot: {x: 0.5967742, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 57
+      width: 31
+      height: 19
+    spriteID: 41acdb3dbd3a8844ca04e9d7fce8046b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 57}
+  - name: GZ2-Character-GunsSet_Frame_7
+    originalName: 
+    pivot: {x: 0.6166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 230
+      width: 30
+      height: 21
+    spriteID: 97f109b8ba3e70a87ab41150cbb8597b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 230}
+  - name: GZ2-Character-GunsSet_Frame_8
+    originalName: 
+    pivot: {x: 0.637931, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 57
+      width: 29
+      height: 18
+    spriteID: 0e125fcbe679a59019dad96851e1e4d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 57}
+  - name: GZ2-Character-GunsSet_Frame_9
+    originalName: 
+    pivot: {x: 0.66071427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 30
+      width: 28
+      height: 19
+    spriteID: d76d1a880e1cd9557ab130e34041053d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 30}
+  - name: GZ2-Character-GunsSet_Frame_10
+    originalName: 
+    pivot: {x: 0.5967742, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 146
+      width: 31
+      height: 21
+    spriteID: d2224c554bb7deeedad9318cf1040bb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 146}
+  - name: GZ2-Character-GunsSet_Frame_11
+    originalName: 
+    pivot: {x: 0.6166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 221
+      width: 30
+      height: 18
+    spriteID: e0cc11fe38a34aa6f883a0e396733a72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 221}
+  - name: GZ2-Character-GunsSet_Frame_12
+    originalName: 
+    pivot: {x: 0.7115385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 109
+      width: 26
+      height: 19
+    spriteID: f2ef3b64854a88d06af2d2265f44b0c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 109}
+  - name: GZ2-Character-GunsSet_Frame_13
+    originalName: 
+    pivot: {x: 0.66071427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 84
+      width: 28
+      height: 21
+    spriteID: ddb80958355527dc4830926c89bd300c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 84}
+  - name: GZ2-Character-GunsSet_Frame_14
+    originalName: 
+    pivot: {x: 0.66071427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 83
+      width: 28
+      height: 18
+    spriteID: 62e6cc1c1836b4e9fa066f012b6a7fec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 83}
+  - name: GZ2-Character-GunsSet_Frame_15
+    originalName: 
+    pivot: {x: 0.7115385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 136
+      width: 26
+      height: 19
+    spriteID: 41c58ec636d6a79abb79e2a0ab26f997
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 136}
+  - name: GZ2-Character-GunsSet_Frame_16
+    originalName: 
+    pivot: {x: 0.6851852, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 140
+      width: 27
+      height: 21
+    spriteID: 16999b75087f2dd2e882933516a1131d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 140}
+  - name: GZ2-Character-GunsSet_Frame_17
+    originalName: 
+    pivot: {x: 0.6166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 4
+      width: 30
+      height: 18
+    spriteID: 7b3e8da4b937c00fc8c4fea62e1b4533
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 4}
+  - name: GZ2-Character-GunsSet_Frame_18
+    originalName: 
+    pivot: {x: 0.6166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 113
+      width: 30
+      height: 19
+    spriteID: 4692c1eb7950f1d2495a68d3728dbcba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 113}
+  - name: GZ2-Character-GunsSet_Frame_19
+    originalName: 
+    pivot: {x: 0.578125, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 60
+      width: 32
+      height: 21
+    spriteID: 33393c4f183052124baa58923854a7cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 60}
+  - name: GZ2-Character-GunsSet_Frame_20
+    originalName: 
+    pivot: {x: 0.56060606, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 31
+      width: 33
+      height: 18
+    spriteID: 43f08c4372b38fd36a0ea293d1ce2773
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 31}
+  - name: GZ2-Character-GunsSet_Frame_21
+    originalName: 
+    pivot: {x: 0.56060606, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 4
+      width: 33
+      height: 19
+    spriteID: 864f7b34a3eda6fb1a43921ddd83b917
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 4}
+  - name: GZ2-Character-GunsSet_Frame_22
+    originalName: 
+    pivot: {x: 0.5967742, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 175
+      width: 31
+      height: 21
+    spriteID: 236937d88a2110465bca71cfa7e32e45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 175}
+  - name: GZ2-Character-GunsSet_Frame_23
+    originalName: 
+    pivot: {x: 0.5967742, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 169
+      width: 31
+      height: 18
+    spriteID: 2d0f1354e8e39c9268f48f86dcdbcad2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 169}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 427212543
+    name: GZ2-Character-GunsSet
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: GZ2-Character-GunsSet_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 33
+        height: 20
+      spriteId: 098fdfc3710bc742f90305cde4c4c83e
+    - name: GZ2-Character-GunsSet_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 0
+        width: 33
+        height: 21
+      spriteId: 7d1166034c3eb51f8b7e4dca0902bbd2
+    - name: GZ2-Character-GunsSet_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 0
+        width: 36
+        height: 18
+      spriteId: 954635d24f7e8330c8f2cd807e1379cf
+    - name: GZ2-Character-GunsSet_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 0
+        width: 38
+        height: 19
+      spriteId: 083f05a497ab39e88a648d76d3b55822
+    - name: GZ2-Character-GunsSet_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 0
+        width: 31
+        height: 21
+      spriteId: e10648fe5ef47dcf19fbb995ceb5fc15
+    - name: GZ2-Character-GunsSet_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 0
+        width: 30
+        height: 18
+      spriteId: b55478d9969996bd2a4dc8f5444f7b47
+    - name: GZ2-Character-GunsSet_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 2
+        y: 0
+        width: 31
+        height: 19
+      spriteId: 41acdb3dbd3a8844ca04e9d7fce8046b
+    - name: GZ2-Character-GunsSet_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 2
+        y: 0
+        width: 30
+        height: 21
+      spriteId: 97f109b8ba3e70a87ab41150cbb8597b
+    - name: GZ2-Character-GunsSet_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 2
+        y: 0
+        width: 29
+        height: 18
+      spriteId: 0e125fcbe679a59019dad96851e1e4d9
+    - name: GZ2-Character-GunsSet_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 2
+        y: 0
+        width: 28
+        height: 19
+      spriteId: d76d1a880e1cd9557ab130e34041053d
+    - name: GZ2-Character-GunsSet_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 2
+        y: 0
+        width: 31
+        height: 21
+      spriteId: d2224c554bb7deeedad9318cf1040bb9
+    - name: GZ2-Character-GunsSet_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 2
+        y: 0
+        width: 30
+        height: 18
+      spriteId: e0cc11fe38a34aa6f883a0e396733a72
+    - name: GZ2-Character-GunsSet_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 0
+        width: 26
+        height: 19
+      spriteId: f2ef3b64854a88d06af2d2265f44b0c5
+    - name: GZ2-Character-GunsSet_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 2
+        y: 0
+        width: 28
+        height: 21
+      spriteId: ddb80958355527dc4830926c89bd300c
+    - name: GZ2-Character-GunsSet_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 2
+        y: 0
+        width: 28
+        height: 18
+      spriteId: 62e6cc1c1836b4e9fa066f012b6a7fec
+    - name: GZ2-Character-GunsSet_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 2
+        y: 0
+        width: 26
+        height: 19
+      spriteId: 41c58ec636d6a79abb79e2a0ab26f997
+    - name: GZ2-Character-GunsSet_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 0
+        width: 27
+        height: 21
+      spriteId: 16999b75087f2dd2e882933516a1131d
+    - name: GZ2-Character-GunsSet_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 0
+        width: 30
+        height: 18
+      spriteId: 7b3e8da4b937c00fc8c4fea62e1b4533
+    - name: GZ2-Character-GunsSet_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 0
+        width: 30
+        height: 19
+      spriteId: 4692c1eb7950f1d2495a68d3728dbcba
+    - name: GZ2-Character-GunsSet_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 0
+        width: 32
+        height: 21
+      spriteId: 33393c4f183052124baa58923854a7cd
+    - name: GZ2-Character-GunsSet_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 0
+        width: 33
+        height: 18
+      spriteId: 43f08c4372b38fd36a0ea293d1ce2773
+    - name: GZ2-Character-GunsSet_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 0
+        width: 33
+        height: 19
+      spriteId: 864f7b34a3eda6fb1a43921ddd83b917
+    - name: GZ2-Character-GunsSet_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 0
+        width: 31
+        height: 21
+      spriteId: 236937d88a2110465bca71cfa7e32e45
+    - name: GZ2-Character-GunsSet_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 0
+        width: 31
+        height: 18
+      spriteId: 2d0f1354e8e39c9268f48f86dcdbcad2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 41, y: 35}

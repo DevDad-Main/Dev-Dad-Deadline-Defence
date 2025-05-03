@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: a3903d82bb45a79dab1d83c9918a2fb0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: GZ2-Zombie-Heavy_Frame_0
+    originalName: 
+    pivot: {x: 0.46153846, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 4
+      width: 26
+      height: 26
+    spriteID: 7ece1ff4195b07501b1894a39a4dc462
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 4}
+  - name: GZ2-Zombie-Heavy_Frame_1
+    originalName: 
+    pivot: {x: 0.48148152, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 4
+      width: 27
+      height: 26
+    spriteID: 3529a16ec3f66466c8a207017fd59d05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 4}
+  - name: GZ2-Zombie-Heavy_Frame_2
+    originalName: 
+    pivot: {x: 0.51724136, y: 0.080000006}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 4
+      width: 29
+      height: 25
+    spriteID: 5b5d3626a4969073da30eb6a8e4c21c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 4}
+  - name: GZ2-Zombie-Heavy_Frame_3
+    originalName: 
+    pivot: {x: 0.53571427, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 4
+      width: 28
+      height: 26
+    spriteID: 2a070a045c20f9c3099ce6a613571f0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 4}
+  - name: GZ2-Zombie-Heavy_Frame_4
+    originalName: 
+    pivot: {x: 0.51724136, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 29
+      height: 26
+    spriteID: de82793807b9ad7429cf0eb526253f01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: GZ2-Zombie-Heavy_Frame_5
+    originalName: 
+    pivot: {x: 0.41666663, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 38
+      width: 24
+      height: 26
+    spriteID: 1d0c91a29ffdb89b6b2a1d5ecec9b3f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 38}
+  - name: GZ2-Zombie-Heavy_Frame_6
+    originalName: 
+    pivot: {x: 0.45454544, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 38
+      width: 22
+      height: 26
+    spriteID: 296c0cb8404b35c6aa969f405694697b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 229, y: 38}
+  - name: GZ2-Zombie-Heavy_Frame_7
+    originalName: 
+    pivot: {x: 0.4, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 38
+      width: 25
+      height: 26
+    spriteID: 35dffea3e9d9debc0bb049406a7bc410
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 38}
+  - name: GZ2-Zombie-Heavy_Frame_8
+    originalName: 
+    pivot: {x: 0.41666663, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 38
+      width: 24
+      height: 26
+    spriteID: 9b7dc044bc3baa3e589e3c74cd796532
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 38}
+  - name: GZ2-Zombie-Heavy_Frame_9
+    originalName: 
+    pivot: {x: 0.41666663, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 38
+      width: 24
+      height: 26
+    spriteID: 01d35c10802e747b4aeb49fed7c3be87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 38}
+  - name: GZ2-Zombie-Heavy_Frame_10
+    originalName: 
+    pivot: {x: 0.41666663, y: 0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 72
+      width: 24
+      height: 25
+    spriteID: dc3aee05a7c5138d68cbe129c227733b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 72}
+  - name: GZ2-Zombie-Heavy_Frame_11
+    originalName: 
+    pivot: {x: 0.41666663, y: 0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 72
+      width: 24
+      height: 24
+    spriteID: c4f52e696631264c0af7df3a1efd35ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 72}
+  - name: GZ2-Zombie-Heavy_Frame_12
+    originalName: 
+    pivot: {x: 0.41666663, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 38
+      width: 24
+      height: 26
+    spriteID: 8fdefcf244232ebf7a25aa3b4af33368
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 38}
+  - name: GZ2-Zombie-Heavy_Frame_13
+    originalName: 
+    pivot: {x: 0.41666663, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 38
+      width: 24
+      height: 26
+    spriteID: 7b2a3c6d93ad95c3fba858dd4304452c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 38}
+  - name: GZ2-Zombie-Heavy_Frame_14
+    originalName: 
+    pivot: {x: 0.41666663, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 38
+      width: 24
+      height: 26
+    spriteID: 3d4994901df033bfab6b61a0c62032a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 38}
+  - name: GZ2-Zombie-Heavy_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 26
+    spriteID: 7fce98f205327ac489de9b3f121abf18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: GZ2-Zombie-Heavy_Frame_16
+    originalName: 
+    pivot: {x: 0.4827586, y: 0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 72
+      width: 29
+      height: 21
+    spriteID: dbb0571e0690db49285e258a00bacf4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 72}
+  - name: GZ2-Zombie-Heavy_Frame_17
+    originalName: 
+    pivot: {x: 0.4827586, y: 0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 72
+      width: 29
+      height: 19
+    spriteID: 1ce7d9dbb169711ce85065eff2513efe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 72}
+  - name: GZ2-Zombie-Heavy_Frame_18
+    originalName: 
+    pivot: {x: 0.4827586, y: 0.40000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 101
+      width: 29
+      height: 20
+    spriteID: 4651ed9ba0be404c1baf63a85bccb8d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 101}
+  - name: GZ2-Zombie-Heavy_Frame_19
+    originalName: 
+    pivot: {x: 0.4827586, y: 0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 4
+      width: 29
+      height: 24
+    spriteID: 55387b432726807d099e6daebde7b19c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 4}
+  - name: GZ2-Zombie-Heavy_Frame_20
+    originalName: 
+    pivot: {x: 0.4642857, y: 0.8421053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 72
+      width: 28
+      height: 19
+    spriteID: 681ee31412001b5deafe0788dd5bf8a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 72}
+  - name: GZ2-Zombie-Heavy_Frame_21
+    originalName: 
+    pivot: {x: 0.4642857, y: 0.8000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 72
+      width: 28
+      height: 20
+    spriteID: bd54b0c2378f6e17eb464ee722712299
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 72}
+  - name: GZ2-Zombie-Heavy_Frame_22
+    originalName: 
+    pivot: {x: 0.4, y: 0.8421053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 72
+      width: 25
+      height: 19
+    spriteID: 04cb17fedb4e219a5b2a884f1c02a9d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 72}
+  - name: GZ2-Zombie-Heavy_Frame_23
+    originalName: 
+    pivot: {x: 0.375, y: 1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 105
+      width: 24
+      height: 16
+    spriteID: e800b6f12d83261218da840916b087c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 105}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 112865370
+    name: GZ2-Zombie-Heavy
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: GZ2-Zombie-Heavy_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 3
+        y: 0
+        width: 26
+        height: 26
+      spriteId: 7ece1ff4195b07501b1894a39a4dc462
+    - name: GZ2-Zombie-Heavy_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: -1
+        width: 27
+        height: 26
+      spriteId: 3529a16ec3f66466c8a207017fd59d05
+    - name: GZ2-Zombie-Heavy_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: -2
+        width: 29
+        height: 25
+      spriteId: 5b5d3626a4969073da30eb6a8e4c21c3
+    - name: GZ2-Zombie-Heavy_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: -1
+        width: 28
+        height: 26
+      spriteId: 2a070a045c20f9c3099ce6a613571f0c
+    - name: GZ2-Zombie-Heavy_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 29
+        height: 26
+      spriteId: de82793807b9ad7429cf0eb526253f01
+    - name: GZ2-Zombie-Heavy_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 5
+        y: -1
+        width: 24
+        height: 26
+      spriteId: 1d0c91a29ffdb89b6b2a1d5ecec9b3f6
+    - name: GZ2-Zombie-Heavy_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 5
+        y: -1
+        width: 22
+        height: 26
+      spriteId: 296c0cb8404b35c6aa969f405694697b
+    - name: GZ2-Zombie-Heavy_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 5
+        y: -1
+        width: 25
+        height: 26
+      spriteId: 35dffea3e9d9debc0bb049406a7bc410
+    - name: GZ2-Zombie-Heavy_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 5
+        y: -1
+        width: 24
+        height: 26
+      spriteId: 9b7dc044bc3baa3e589e3c74cd796532
+    - name: GZ2-Zombie-Heavy_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 5
+        y: -1
+        width: 24
+        height: 26
+      spriteId: 01d35c10802e747b4aeb49fed7c3be87
+    - name: GZ2-Zombie-Heavy_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: -1
+        width: 24
+        height: 25
+      spriteId: dc3aee05a7c5138d68cbe129c227733b
+    - name: GZ2-Zombie-Heavy_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 5
+        y: -1
+        width: 24
+        height: 24
+      spriteId: c4f52e696631264c0af7df3a1efd35ba
+    - name: GZ2-Zombie-Heavy_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 5
+        y: -1
+        width: 24
+        height: 26
+      spriteId: 8fdefcf244232ebf7a25aa3b4af33368
+    - name: GZ2-Zombie-Heavy_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 5
+        y: -1
+        width: 24
+        height: 26
+      spriteId: 7b2a3c6d93ad95c3fba858dd4304452c
+    - name: GZ2-Zombie-Heavy_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 5
+        y: -1
+        width: 24
+        height: 26
+      spriteId: 3d4994901df033bfab6b61a0c62032a6
+    - name: GZ2-Zombie-Heavy_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: -1
+        width: 30
+        height: 26
+      spriteId: 7fce98f205327ac489de9b3f121abf18
+    - name: GZ2-Zombie-Heavy_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: -3
+        width: 29
+        height: 21
+      spriteId: dbb0571e0690db49285e258a00bacf4f
+    - name: GZ2-Zombie-Heavy_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 1
+        y: -5
+        width: 29
+        height: 19
+      spriteId: 1ce7d9dbb169711ce85065eff2513efe
+    - name: GZ2-Zombie-Heavy_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 1
+        y: -8
+        width: 29
+        height: 20
+      spriteId: 4651ed9ba0be404c1baf63a85bccb8d7
+    - name: GZ2-Zombie-Heavy_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 1
+        y: -12
+        width: 29
+        height: 24
+      spriteId: 55387b432726807d099e6daebde7b19c
+    - name: GZ2-Zombie-Heavy_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: -16
+        width: 28
+        height: 19
+      spriteId: 681ee31412001b5deafe0788dd5bf8a9
+    - name: GZ2-Zombie-Heavy_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: -16
+        width: 28
+        height: 20
+      spriteId: bd54b0c2378f6e17eb464ee722712299
+    - name: GZ2-Zombie-Heavy_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 5
+        y: -16
+        width: 25
+        height: 19
+      spriteId: 04cb17fedb4e219a5b2a884f1c02a9d7
+    - name: GZ2-Zombie-Heavy_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 6
+        y: -16
+        width: 24
+        height: 16
+      spriteId: e800b6f12d83261218da840916b087c3
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 30, y: 30}
