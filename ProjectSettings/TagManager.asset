@@ -16,11 +16,11 @@ TagManager:
   - Player
   - ProjectTile
   - Obstacle
-  - 
+  - Ground
   - CharacterInteract
   - PickUp
-  - 
-  - 
+  - Buildable
+  - Ghost
   - 
   - 
   - 

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class BuildManager : MonoBehaviour
@@ -6,11 +7,13 @@ public class BuildManager : MonoBehaviour
 
     public GameObject[] buildPrefabs; // e.g., wall, turret
     public BuildArea[] buildAreas;
-    public GameObject ghostInstance;
-
-    private GameObject currentGhost;
+    public LayerMask nonBuildableLayers;
     private int selectedIndex = 0;
     private bool isInBuildMode = false;
+
+    private GameObject ghostInstance;
+    private bool lastValidPlacement = true;
+
 
     private void Awake() => Instance = this;
 
@@ -26,44 +29,111 @@ public class BuildManager : MonoBehaviour
 
     private void Update()
     {
-        if (!isInBuildMode || currentGhost == null)
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            ToggleBuildMode();
+        }
+
+
+        if (!isInBuildMode || ghostInstance == null)
             return;
 
-        Vector3 worldPos = GetBuildInputPosition();
-        Vector3 snapped = SnapToGrid(worldPos);
+        Vector3 targetPos = SnapToGrid(GetBuildInputPosition());
+        ghostInstance.transform.position = targetPos;
 
-        currentGhost.transform.position = snapped;
+        bool isInZone = IsInBuildZone(targetPos);
+        // bool isClear = !Physics2D.OverlapBox(checkPos, boxSize, 0f, nonBuildableLayers);
+        // bool isClear = !Physics2D.OverlapCircle(targetPos, 0.4f, nonBuildableLayers);
+        bool validNow = isInZone && IsPlacementClear();
 
-        bool isInZone = IsInBuildZone(snapped);
-        bool isClear = !Physics2D.OverlapCircle(snapped, 0.4f);
-
-        var sr = currentGhost.GetComponent<SpriteRenderer>();
-        sr.color = (isInZone && isClear) ? Color.green : Color.red;
-
-        if (isInZone && isClear && Input.GetMouseButtonDown(0)) // Replace with input system later
+        // Shake if just became invalid
+        if (!validNow && lastValidPlacement)
         {
-            Instantiate(buildPrefabs[selectedIndex], snapped, Quaternion.identity);
+            ghostInstance.transform.DOKill();
+            ghostInstance.transform.DOShakePosition(0.2f, 0.15f, 10, 90);
         }
+
+        // Place object
+        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (validNow)
+            {
+                GameObject placed = Instantiate(buildPrefabs[selectedIndex], targetPos, Quaternion.identity);
+                SetLayerRecursively(placed, LayerMask.NameToLayer("Buildable"));
+                placed.transform.DOPunchScale(Vector3.one * 0.2f, 0.2f, 10, 1);
+                // Then we destroy the box collider that is parented on the object
+                // as the children will have gameobjects
+                Destroy(ghostInstance.GetComponent<BoxCollider2D>());
+            }
+            else
+            {
+                ghostInstance.transform.DOKill(); // Stop any existing tweens
+                ghostInstance.transform.localPosition = Vector3.zero; // Reset just in case
+                // Stronger shake when placement is invalid
+                ghostInstance.transform.DOShakePosition(
+                    duration: 0.4f,
+                    strength: 0.2f,
+                    vibrato: 30,
+                    randomness: 90,
+                    snapping: false,
+                    fadeOut: true
+                ).SetEase(Ease.OutBack);
+            }
+        }
+        
+        // if (validNow && Input.GetKeyDown(KeyCode.E)) // Swap with Input System action later
+        // {
+        //     Debug.Log("Placing buildable at: " + targetPos);
+        //     GameObject placed = Instantiate(buildPrefabs[selectedIndex], targetPos, Quaternion.identity);
+            
+        //     // changing the newly placed building to the buildable layer to avoid building in place
+        //     SetLayerRecursively(placed, LayerMask.NameToLayer("Buildable"));
+            
+        //     // Little pop animation
+        //     placed.transform.DOPunchScale(Vector3.one * 0.2f, 0.2f, 10, 1);
+            
+        //     // Then we destroy the box collider that is parented on the object
+        //     // as the children will have gameobjects
+        //     Destroy(ghostInstance.GetComponent<BoxCollider2D>());
+        // }
+
+        lastValidPlacement = validNow;
     }
+
+    private bool IsPlacementClear()
+    {
+        BoxCollider2D ghostCollider = ghostInstance.GetComponentInChildren<BoxCollider2D>();
+        Vector2 size = ghostCollider.size;
+        Vector2 offset = ghostCollider.offset;
+        Vector2 position = (Vector2)ghostInstance.transform.position + offset;
+
+        return !Physics2D.OverlapBox(position, size, 0f, nonBuildableLayers);
+    }
+
 
     private void CreateGhost()
     {
-        if (ghostInstance != null)
-            DestroyGhost();
+        DestroyGhost(); // Clean up any old ghost
 
         ghostInstance = Instantiate(buildPrefabs[selectedIndex]);
-        var sr = ghostInstance.GetComponent<SpriteRenderer>();
-        sr.color = new Color(0, 1, 0, 0.5f); // Semi-transparent green initially
+        ghostInstance.transform.localScale = Vector3.one * 0.95f; // slightly smaller to look ghosty  
+    }
 
-        // Remove colliders from ghost
-        foreach (var col in ghostInstance.GetComponents<Collider2D>())
-            Destroy(col);
+    void SetLayerRecursively(GameObject obj, int newLayer)
+    {
+        obj.layer = newLayer;
+        foreach (Transform child in obj.transform)
+            SetLayerRecursively(child.gameObject, newLayer);
     }
 
     private void DestroyGhost()
     {
         if (ghostInstance != null)
+        {
             Destroy(ghostInstance);
+            ghostInstance = null;
+        }
     }
 
     private Vector3 SnapToGrid(Vector3 pos)
