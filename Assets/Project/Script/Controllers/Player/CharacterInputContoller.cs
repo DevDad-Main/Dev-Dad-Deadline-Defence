@@ -50,6 +50,8 @@ namespace TopDown_Template
 
         public Action<string> OnSchemeChanged;
         private string _lastScheme;
+
+        public Action OnInteractPressed;
         #endregion
 
 
