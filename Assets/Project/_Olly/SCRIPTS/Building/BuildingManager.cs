@@ -25,6 +25,7 @@ public class BuildManager : MonoBehaviour
     private GameObject ghostInstance;
     private bool lastValidPlacement = true;
     private InputController _inputController;
+    private UpgradableBuilding currentlySelectedUpgradableBuilding;
     #endregion
 
 
@@ -33,7 +34,6 @@ public class BuildManager : MonoBehaviour
     void Start()
     {
         _inputController = Player.Instance.InputController;
-
         // foreach (var area in buildAreas)
         //     area.ShowGrid(false);
     }
@@ -48,18 +48,33 @@ public class BuildManager : MonoBehaviour
         if (isInBuildMode){
             CreateGhost();
         }
-        else{
+        else
+        {
             DestroyGhost();
+            // if (WaveManager.Instance.IsBetweenWaves && Input.GetKeyDown(KeyCode.E))
         }
+
+        
     }
 
     private void Update()
     {
+        GetHoveredTower();
+
         if (Input.GetKeyDown(KeyCode.B))
         {
             ToggleBuildMode();
         }
 
+
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            // var hoveredTower = GetHoveredTower();
+            if (currentlySelectedUpgradableBuilding != null && currentlySelectedUpgradableBuilding.CanUpgrade)
+            {
+                currentlySelectedUpgradableBuilding.TryUpgrade();
+            }
+        }
 
         if (!isInBuildMode || ghostInstance == null)
             return;
@@ -86,11 +101,13 @@ public class BuildManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             int cost = buildItems[selectedIndex].cost;
-            if (validNow && ScrapManager.Instance.TrySpend(cost))
+            if (validNow && ScrapManager.Instance.TrySpendScrap(cost))
             {
                 GameObject placed = Instantiate(buildItems[selectedIndex].buildableGO, targetPos, Quaternion.identity);
                 SetLayerRecursively(placed, LayerMask.NameToLayer("Buildable"));
                 PlayPlacementFeedback(placed);
+                // Gets rid of the parent collider so we have no issues with colliding etc
+                Destroy(placed.GetComponent<BoxCollider2D>());
             }
             else if (!validNow)
             {
@@ -197,21 +214,42 @@ public class BuildManager : MonoBehaviour
             ghostInstance = null;
         }
     }
+    private UpgradableBuilding GetHoveredTower()
+    {
+        Vector3 mouseWorldPos = GetBuildInputPosition();
+        RaycastHit2D hit = Physics2D.Raycast(mouseWorldPos, Vector2.zero, 0f, LayerMask.GetMask("Buildable"));
+
+        UpgradableBuilding hovered = hit.collider != null 
+            ? hit.collider.GetComponentInParent<UpgradableBuilding>() 
+            : null;
+
+        if (hovered != currentlySelectedUpgradableBuilding)
+        {
+            // Hide the old one if it exists
+            if (currentlySelectedUpgradableBuilding != null)
+            {
+                currentlySelectedUpgradableBuilding.CanvasParent.SetActive(false);
+            }
+
+            currentlySelectedUpgradableBuilding = hovered;
+
+            // Show the new one
+            if (currentlySelectedUpgradableBuilding != null)
+            {
+                if (WaveManager.Instance.IsBuildPhase())
+                {
+                    currentlySelectedUpgradableBuilding.SetUpgradeUI();
+                }
+            }
+        }
+
+        return currentlySelectedUpgradableBuilding;
+    }
 
     private Vector3 SnapToGrid(Vector3 pos)
     {
         return new Vector3(Mathf.Round(pos.x), Mathf.Round(pos.y), 0);
     }
-
-    // private bool IsInBuildZone(Vector2 pos)
-    // {
-    //     foreach (var area in buildAreas)
-    //     {
-    //         if (area.IsWithinBounds(pos))
-    //             return true;
-    //     }
-    //     return false;
-    // }
 
     private Vector3 GetBuildInputPosition()
     {

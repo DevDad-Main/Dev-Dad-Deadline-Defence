@@ -17,6 +17,7 @@ public class WaveManager : MonoBehaviour
     public event Action<int> OnWaveStarted;
     public event Action OnWaveEnded;
     public event Action<float> OnBuildPhaseStarted;
+    public bool IsBetweenWaves => isBuildingPhase;
 
     private int currentWave = 0;
     private bool isBuildingPhase = true;

@@ -23,7 +23,7 @@ public class ScrapUI : MonoBehaviour
         ScrapManager.Instance.OnScrapGained.AddListener(PlayGainFeedback);
         ScrapManager.Instance.OnScrapSpent.AddListener(PlaySpendFeedback);
 
-        UpdateScrapUI(ScrapManager.Instance.Scrap);
+        UpdateScrapUI(ScrapManager.Instance.CurrentScrap);
     }
 
     private void UpdateScrapUI(int newAmount)

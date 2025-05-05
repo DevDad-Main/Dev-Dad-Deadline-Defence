@@ -67,6 +67,7 @@ public class BuildArea : MonoBehaviour
     {
         return validCells.Contains(cell);
     }
+    
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.white;

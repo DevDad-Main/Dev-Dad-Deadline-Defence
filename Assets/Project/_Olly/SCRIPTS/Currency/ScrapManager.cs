@@ -7,7 +7,7 @@ public class ScrapManager : MonoBehaviour
 {
     public static ScrapManager Instance;
 
-    public int Scrap { get; private set; } = 0;
+    public int CurrentScrap { get; private set; } = 0;
 
     // Events
     public UnityEvent<int> OnScrapChanged = new UnityEvent<int>();
@@ -24,17 +24,17 @@ public class ScrapManager : MonoBehaviour
 
     public void AddScrap(int amount)
     {
-        Scrap += amount;
-        OnScrapChanged.Invoke(Scrap);
+        CurrentScrap += amount;
+        OnScrapChanged.Invoke(CurrentScrap);
         OnScrapGained.Invoke(amount);
     }
 
-    public bool TrySpend(int amount)
+    public bool TrySpendScrap(int amount)
     {
-        if (Scrap >= amount)
+        if (CurrentScrap >= amount)
         {
-            Scrap -= amount;
-            OnScrapChanged.Invoke(Scrap);
+            CurrentScrap -= amount;
+            OnScrapChanged.Invoke(CurrentScrap);
             OnScrapSpent.Invoke(amount);
             return true;
         }
